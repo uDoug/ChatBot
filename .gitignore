@@ -1,0 +1,29 @@
+# Arquivos de dataset baixados
+dataset/*.pdf
+/langchain/dataset
+# Vector store / Embeddings cache
+vector_store/
+/langchain/historicos
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Ambiente virtual
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
